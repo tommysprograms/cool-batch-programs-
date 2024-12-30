@@ -1,7 +1,8 @@
 @echo off 
-title pakistan
-color a
+@MODE CON COLS=60 LINES=30
 :flag
+color a
+title pakistan
 echo AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 echo AAAAAAAAAAAAAAA                              A
 echo AAAAAAAAAAAAAAA          aa                  A
