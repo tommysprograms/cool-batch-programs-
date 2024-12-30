@@ -1,5 +1,5 @@
 @echo off
-@MODE CON COLS=54 LINES=30
+@MODE CON COLS=60 LINES=30
 color 0E
 title saint stephen's day
 echo sorry grandma, i've already ate too much for St Stephen's Day...
