@@ -1,6 +1,6 @@
 @echo off
 CHCP 65001 >nul
-@MODE CON COLS=54 LINES=30
+@MODE CON COLS=60 LINES=30
 :menu
 color 0a
 title Free Robux Downloader!
