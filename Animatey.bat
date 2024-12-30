@@ -1,5 +1,5 @@
 @echo off
-@MODE CON COLS=54 LINES=30
+@MODE CON COLS=60 LINES=30
 color 0E
 :loop
 title animatey
