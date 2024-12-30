@@ -29,7 +29,7 @@ if %errorlevel%==2 goto exit
 exit
 
 :add
-@MODE CON COLS=50 LINES=30
+@MODE CON COLS=54 LINES=30
 CLS
 set /p aaaName=Enter Your Account Name: 
 set /p aaa=Enter Amount To Add: 
