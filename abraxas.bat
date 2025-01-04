@@ -1,5 +1,5 @@
 @echo off
-@MODE CON COLS=60 LINES=22
+@MODE CON COLS=60 LINES=25
 CHCP 65001 >nul
 :abraxas
 color 4
