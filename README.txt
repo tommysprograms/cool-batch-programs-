@@ -7,5 +7,5 @@
   \___\___/ \___/|_| |_.__/ \__,_|\__\___|_| |_| | .__/|_|  \___/ \__, |_|  \__,_|_| |_| |_|___/ |_.__/ \__, |    |_|\___/|_| |_| |_|_| |_| |_|\__, |
                                                  | |               __/ |                                 __/ |                                  __/ |
                                                  |_|              |___/                                 |___/                                  |___/ 
-This will be the place where i store my cool (if they can be called cool) batch programs, which i essentially create when i have nothing better to do.
-All programs that i'll put in here are for educational purposes and don't cause any physical harm to a PC that executes them.
+This will be the place where I store my cool (if they can be called cool) batch programs, which I essentially create when I have nothing better to do.
+All programs that I'll be putting in here are for educational purposes and don't cause any physical harm to a PC that executes them.
