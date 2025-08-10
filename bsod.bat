@@ -1,7 +1,7 @@
 @echo off
 CHCP 65001 >nul
 MODE CON COLS=60 LINES=30
-color 17
+color 19
 title BSOD
 
 setlocal ENABLEDELAYEDEXPANSION
@@ -51,3 +51,4 @@ for %%p in (0 5 10 15 20 25 30 35 40 45 50 55 60 65 70 75 80 85 90 95 100) do (
     echo.
     timeout /t 1 >nul
 )
+
