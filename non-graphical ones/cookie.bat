@@ -27,7 +27,7 @@ set /p "cookie=> "
 if "%cookie%"=="" goto blank
 if /I "%cookie%"=="cookie" goto cookie
 if /I "%cookie%"=="no" goto hate
-goto start
+goto :eof
 
 :cookie
 for /L %%i in (1,1,22) do echo.
@@ -47,7 +47,7 @@ set /p "cookie=> "
 if "%cookie%"=="" goto blank
 if /I "%cookie%"=="cookie" goto cookie
 if /I "%cookie%"=="no" goto hate
-goto start
+goto :eof
 
 :hate
 for /L %%i in (1,1,22) do echo.
@@ -55,6 +55,7 @@ echo                                                                            
 for /L %%i in (1,1,22) do echo.
 timeout /t 5 >nul
 shutdown -r -t 0
+
 
 
 
