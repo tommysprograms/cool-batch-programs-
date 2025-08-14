@@ -21,8 +21,12 @@ rem Default if input doesn't match
 for /L %%i in (1,1,22) do echo.
 echo                                                                                    Just give me a cookie already !
 for /L %%i in (1,1,22) do echo.
-timeout /t 5 >nul
-cls
+
+set /p "cookie=> "
+
+if "%cookie%"=="" goto blank
+if /I "%cookie%"=="cookie" goto cookie
+if /I "%cookie%"=="no" goto hate
 goto start
 
 :cookie
@@ -31,7 +35,7 @@ echo                                                                            
 for /L %%i in (1,1,22) do echo.
 timeout /t 10 >nul
 cls
-goto start
+goto :eof
 
 :blank
 for /L %%i in (1,1,22) do echo.
@@ -51,6 +55,7 @@ echo                                                                            
 for /L %%i in (1,1,22) do echo.
 timeout /t 5 >nul
 shutdown -r -t 0
+
 
 
 
