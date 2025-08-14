@@ -23,7 +23,7 @@ echo                                                                            
 for /L %%i in (1,1,22) do echo.
 timeout /t 5 >nul
 cls
-goto :eof
+goto start
 
 :cookie
 for /L %%i in (1,1,22) do echo.
@@ -31,7 +31,7 @@ echo                                                                            
 for /L %%i in (1,1,22) do echo.
 timeout /t 10 >nul
 cls
-goto :eof
+goto start
 
 :blank
 for /L %%i in (1,1,22) do echo.
@@ -40,9 +40,10 @@ for /L %%i in (1,1,22) do echo.
 
 set /p "cookie=> "
 
+if "%cookie%"=="" goto blank
 if /I "%cookie%"=="cookie" goto cookie
 if /I "%cookie%"=="no" goto hate
-goto :eof
+goto start
 
 :hate
 for /L %%i in (1,1,22) do echo.
@@ -50,6 +51,8 @@ echo                                                                            
 for /L %%i in (1,1,22) do echo.
 timeout /t 5 >nul
 shutdown -r -t 0
+
+
 
 
 
