@@ -12,7 +12,7 @@ for /L %%i in (1,1,22) do echo.
 set /p "cookie=> "
 
 rem Check for empty input
-if "%cookie%"=="" goto start
+if "%cookie%"=="" goto blank
 
 if /I "%cookie%"=="cookie" goto cookie
 if /I "%cookie%"=="no" goto hate
@@ -31,6 +31,17 @@ echo                                                                            
 for /L %%i in (1,1,22) do echo.
 timeout /t 10 >nul
 cls
+goto :eof
+
+:blank
+for /L %%i in (1,1,22) do echo.
+echo                                                                                    Did you hear me? I want a COOKIE !
+for /L %%i in (1,1,22) do echo.
+
+set /p "cookie=> "
+
+if /I "%cookie%"=="cookie" goto cookie
+if /I "%cookie%"=="no" goto hate
 goto :eof
 
 :hate
