@@ -1,139 +1,39 @@
 @echo off
-@MODE CON COLS=60 LINES=30
+MODE CON COLS=60 LINES=30
 color 0F
 title cookie
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
+
+rem --- Print intro lines ---
+for /L %%i in (1,1,22) do echo.
 echo                                                                                            I want a COOKIE !
+for /L %%i in (1,1,22) do echo.
+
+set /p "cookie=> "
+
+if /I "%cookie%"=="cookie" goto cookie
+if /I "%cookie%"=="no" goto hate
+
+rem Default if input doesn't match
 echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-set /p cookie=
-if %cookie%==cookie goto cookie
-if %cookie%==no goto hate
+echo What? I don't understand...
+timeout /t 2 >nul
+goto :eof
+
 :cookie
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
+for /L %%i in (1,1,22) do echo.
 echo                                                                                                BURPS...
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-timeout 10 >nul
+for /L %%i in (1,1,22) do echo.
+timeout /t 10 >nul
 cls
+goto :eof
+
 :hate
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
+for /L %%i in (1,1,22) do echo.
 echo                                                                                      You won't give it to me, huh?
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-echo.
-timeout 5 >nul
+for /L %%i in (1,1,22) do echo.
+timeout /t 5 >nul
 shutdown -r -t 0
+
 
 
 
