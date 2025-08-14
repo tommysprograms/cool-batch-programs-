@@ -89,7 +89,7 @@ echo.
 echo.
 echo.
 timeout 10 >nul
-exit
+cls
 :hate
 echo.
 echo.
@@ -134,6 +134,7 @@ echo.
 echo.
 timeout 5 >nul
 shutdown -r -t 0
+
 
 
 
