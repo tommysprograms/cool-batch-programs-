@@ -1,5 +1,4 @@
 @echo off
-CHCP 65001 >nul
 rem cool script about a folder 
 rem went mental several times while coding this cuz everything kept going wrong :(
 
@@ -94,3 +93,4 @@ echo.
 echo Anyhow, goodbye.
 timeout 3 >nul
 cls
+
