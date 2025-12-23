@@ -19,3 +19,4 @@ goto loop
 cls
 echo text goes here
 exit /b
+
