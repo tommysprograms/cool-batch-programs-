@@ -10,5 +10,4 @@
 This will be the place where I store my cool (if they can be called cool) batch programs, which I essentially create when I have nothing better to do.
 All programs that I'll be putting in here are for educational purposes and don't cause any physical harm to a PC that executes them.
 
-UPDATE 17 DECEMBER 2025: three months ago I started high school and I can't work on anything, I'm really burnt out. You most likely won't get any new releases for a loooooong while, unless christmas break starting on the 23rd motivates me in a way or another.
-Anyhow, see you soon. -tommy
+Don't be surprised if this repository only gets a new script every several months, motivation is hard to find these days...
