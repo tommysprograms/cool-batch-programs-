@@ -384,6 +384,7 @@ echo ABRAXAS  COM         1,179 02-04-26  12:04a
 echo APPLE    EXE         1,265 02-04-26  12:17a
 echo BLAZER   COM           491 02-04-26  12:28a
 echo COOKIE   EXE        11,752 02-04-26  12:36a
+echo SEBAL    EXE           305 02-04-26   1:08p
 echo FORMAT   COM        22,974 02-04-26   1:31p 
 echo KEYB     COM        15,750 02-04-26   1:36p
 echo DOSKEY   COM         5,861 02-04-26   1:45p
@@ -786,4 +787,5 @@ echo.
 echo COOKIE  EXE         11,752 02-04-26  12:36a
 echo         1 file(s)         11,752 bytes
 echo                    1,234,567,890 bytes free
+
 goto cdwindos
