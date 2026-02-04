@@ -23,7 +23,7 @@ echo  -----------------------
 echo.
 echo          Welcome to Setup.
 echo.
-echo          The Setup program prepares WIN-DOS 1.40 to run on your
+echo          The Setup program prepares WIN-DOS 1.41 to run on your
 echo          computer.
 echo.           
 echo            - To set up WIN-DOS now, press ENTER.
@@ -233,9 +233,9 @@ echo.
 echo  Microsoft WIN-DOS Setup
 echo  -----------------------
 echo.
-echo           WIN-DOS 1.40 is now installed on your computer.
+echo           WIN-DOS 1.41 is now installed on your computer.
 echo.
-echo              - To restart your computer with WIN-DOS 1.40,
+echo              - To restart your computer with WIN-DOS 1.41,
 echo                press ENTER.
 pause >nul
 goto start3
@@ -244,7 +244,7 @@ goto start3
 cls
 setlocal disabledelayedexpansion
 
-title WIN-DOS 1.40
+title WIN-DOS 1.41
 color 0F
 echo Starting WIN-DOS...
 timeout 3 >nul
@@ -274,7 +274,7 @@ goto main
 
 :command
 echo.
-echo Microsoft(R) WIN-DOS(R) Version 1.40
+echo Microsoft(R) WIN-DOS(R) Version 1.41
 echo              (C)Copyright tommy February 3 2026.
 echo.
 goto main2
@@ -650,3 +650,4 @@ echo SEBAL   EXE            305 02-04-26   1:08p
 echo         1 file(s)         305 bytes
 echo                    1,234,567,890 bytes free
 goto cdwindos
+
