@@ -4,7 +4,7 @@ setlocal DisableDelayedExpansion
 color 0F
 
 :start
-title WIN-DOS 1.40
+title WIN-DOS 1.41
 echo Starting WIN-DOS...
 timeout /t 3 >nul
 echo.
@@ -33,7 +33,7 @@ goto main
 
 :command
 echo.
-echo Microsoft(R) WIN-DOS(R) Version 1.40
+echo Microsoft(R) WIN-DOS(R) Version 1.41
 echo              (C)Copyright tommy February 3-4 2026.
 echo.
 goto main2
@@ -100,7 +100,8 @@ if /I "%usercmd%"=="blazer" goto blazer
 if /I "%usercmd%"=="dir blazer.com" goto dirblazer
 if /I "%usercmd%"=="cookie" goto cookie
 if /I "%usercmd%"=="dir cookie.exe" goto dircookie
-
+if /I "%usercmd%"=="sebal" goto sebal
+if /I "%usercmd%"=="dir sebal.exe" goto dirsebal
 
 :graphics
 goto cdwindos
@@ -389,5 +390,25 @@ echo.
 echo COOKIE  EXE         11,752 02-04-26  12:36a
 echo         1 file(s)         11,752 bytes
 echo                    1,234,567,890 bytes free
+goto cdwindos
 
+:sebal
+echo Sorry kid.
+echo You-how dare-brushed off my warning. As I warned you, I deleted this file.
+echo Though you recover the file, it will be deleted soon again.
+echo Do you know who i am?
+echo EVERYONE CALLS ME MOST POWERFUL VIRUS
+echo THE GLORIOUS NAME IS ...
+echo ###   S  E  B  A  L   ###
+goto cdwindos
+
+:dirsebal
+echo.
+echo  Volume in drive C is WIN-DOS
+echo  Volume Serial Number is 1234_ABCD
+echo  Directory of C:\DOS
+echo.
+echo SEBAL   EXE            305 02-04-26   1:08p
+echo         1 file(s)         305 bytes
+echo                    1,234,567,890 bytes free
 goto cdwindos
