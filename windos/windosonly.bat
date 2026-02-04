@@ -4,7 +4,7 @@ setlocal DisableDelayedExpansion
 color 0F
 
 :start
-title WIN-DOS 1.35
+title WIN-DOS 1.40
 echo Starting WIN-DOS...
 timeout /t 3 >nul
 echo.
@@ -33,7 +33,7 @@ goto main
 
 :command
 echo.
-echo Microsoft(R) WIN-DOS(R) Version 1.35
+echo Microsoft(R) WIN-DOS(R) Version 1.40
 echo              (C)Copyright tommy February 3-4 2026.
 echo.
 goto main2
@@ -389,4 +389,5 @@ echo.
 echo COOKIE  EXE         11,752 02-04-26  12:36a
 echo         1 file(s)         11,752 bytes
 echo                    1,234,567,890 bytes free
+
 goto cdwindos
