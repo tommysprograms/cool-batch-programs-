@@ -130,7 +130,8 @@ echo ABRAXAS  COM         1,179 02-04-26  12:04a
 echo APPLE    EXE         1,265 02-04-26  12:17a
 echo BLAZER   COM           491 02-04-26  12:28a
 echo COOKIE   EXE        11,752 02-04-26  12:36a
-echo         8 file(s)         51,913 bytes 
+echo SEBAL    EXE           305 02-04-26   1:08p
+echo         9 file(s)         52,218 bytes 
 echo                    1,234,567,890 bytes free 
 echo.
 goto cdwindos
@@ -412,3 +413,4 @@ echo SEBAL   EXE            305 02-04-26   1:08p
 echo         1 file(s)         305 bytes
 echo                    1,234,567,890 bytes free
 goto cdwindos
+
