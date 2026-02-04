@@ -393,7 +393,7 @@ echo FC       EXE        18,650 02-04-26   1:55p
 echo FIND     EXE         6,770 02-04-26   2:00p
 echo MOVE     EXE        18,319 02-04-26   2:07p  
 echo SHARE    EXE        10,912 02-04-26   2:11p 
-echo SUSBT    EXE        18,526 02-04-26   2:15p
+echo SUBST    EXE        18,526 02-04-26   2:15p
 echo         18 file(s)         180,991 bytes 
 echo                    1,234,567,890 bytes free 
 echo.
@@ -789,3 +789,4 @@ echo         1 file(s)         11,752 bytes
 echo                    1,234,567,890 bytes free
 
 goto cdwindos
+
