@@ -43,4 +43,5 @@ BUILD 42 - 1.31 (adds back regular % loading times as it was removed in version 
 BUILD 43 - 1.40 (populated the WINDOS directory with most of my DOS virus recreations)
 BUILD 44 - 1.41 (added SEBAL.EXE)
 BUILD 45 - 1.50 (adds 9 normal files to the WINDOS directory)
+BUILD 46 - 1.55 (adds A: drive function, bad command or file name function and three new files to the WINDOS directory)
 
