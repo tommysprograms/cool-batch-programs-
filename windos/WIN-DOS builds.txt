@@ -44,4 +44,5 @@ BUILD 43 - 1.40 (populated the WINDOS directory with most of my DOS virus recrea
 BUILD 44 - 1.41 (added SEBAL.EXE)
 BUILD 45 - 1.50 (adds 9 normal files to the WINDOS directory)
 BUILD 46 - 1.55 (adds A: drive function, bad command or file name function and three new files to the WINDOS directory)
+BUILD 47 - 1.61 (adds six new files to the WINDOS directory, adds a dir /w function + file directory minor fix)
 
